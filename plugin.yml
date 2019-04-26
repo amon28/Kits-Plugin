@@ -1,0 +1,9 @@
+name: Kits
+version: 1.0
+main: Kits\Main
+api: [3.0.0]
+author: Amon
+
+commands:
+ kits:
+  description: equipment kits
