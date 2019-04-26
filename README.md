@@ -16,6 +16,12 @@ Easy to use kit plugin
 /kits view (kit name)
  - allows you to see what items are in the kit.
 
+# plans
+- Makes every kit have a permission
+- Custom names on items
+- Enchants
+- Remake the whole plugin to use forms
+
 # How To Install (recommended to have DevTools)
 ●1.Download the plugin.
 ●2.Go to Pocketmine folder.
