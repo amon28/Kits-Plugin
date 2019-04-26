@@ -7,3 +7,5 @@ author: Amon
 commands:
  kits:
   description: equipment kits
+  permission: kits.use
+  default: op
