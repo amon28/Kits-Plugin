@@ -1,16 +1,20 @@
 # Kits
 Easy to use kit plugin
 
-#Commands
+# Commands
+
 /kits list
- - list all created kits
+ - list all created kits.
+
 /kits add (ID,META/DMG,COUNT)
- - you can add kits with this command
+ - you can add kits with this command.
  Ex. /kits add 1,0,64 //stack of stone
+
 /kits del (kit name)
- - delete a kit you created
+ - delete a kit you created.
+
 /kits view (kit name)
- - allows you to see what items are in the kit
+ - allows you to see what items are in the kit.
 
 # How To Install (recommended to have DevTools)
 ●1.Download the plugin.
