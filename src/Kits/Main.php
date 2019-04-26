@@ -66,6 +66,12 @@ class Main extends PluginBase implements Listener{
 	    break;
 	    
 	case "add":
+	 if($sender instanceOf Player){
+	 if($sender->hasPermission() == "kits.add"){
+	$sender->sendMessage(C::RED.C::UNDERLINE."You Do Not Have Permission To Use This");
+	return true;
+	 }
+	 }
 	  if(isset($args[1]) and isset($args[2])){
 	  $cf = new Config($this->getDataFolder() . "config.yml");
 	  if(($cf->get($args[1])) != null){
@@ -92,6 +98,12 @@ class Main extends PluginBase implements Listener{
 	  break;
 	  
 	  case "del":
+	  if($sender instanceOf Player){
+	  if($sender->hasPermission() == "kits.del"){
+	$sender->sendMessage(C::RED.C::UNDERLINE."You Do Not Have Permission To Use This");
+	return true;
+	  }
+	  }
 	   if(isset($args[1])){
 	   $cf = new Config($this->getDataFolder() . "config.yml");    
 	   $ar = $cf->get("name");
