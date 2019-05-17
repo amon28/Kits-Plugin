@@ -20,7 +20,7 @@ Easy to use kit plugin
 - Makes every kit have a permission
 - Custom names on items
 - Enchants
-- Remake the whole plugin to use forms
+- Remake the whole plugin to use forms / (Advance Kits)
 
 # How To Install (recommended to have DevTools)
 ●1.Download the plugin.
